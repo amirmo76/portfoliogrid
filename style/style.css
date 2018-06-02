@@ -103,3 +103,17 @@ a:hover {
 .no-border {
     border: none;
 }
+
+/*-------------CONTACT-FORM----------*/
+
+.input-group-addon {
+    padding: 20px 0;
+    width: 65px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#contact textarea {
+    min-height: 250px;
+    resize: none;
+}
