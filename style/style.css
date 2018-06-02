@@ -35,7 +35,7 @@ a:hover {
     height: 100%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1198px) {
 
     #header-left {
         height: 325px;
@@ -43,6 +43,23 @@ a:hover {
 
     #header-right {
         height: 325px;
+    }
+
+    .portfolio-nav-item i {
+        font-size: 1.7em;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    #header-left {
+        height: 300px;
+    }
+
+    #header-right {
+        height: 300px;
     }
 
     .portfolio-nav-item i {
@@ -75,4 +92,14 @@ a:hover {
         height: 400px;
     }
 
+}
+
+/*--------------MAIN-----------------*/
+
+.no-radius {
+    border-radius: 0;
+}
+
+.no-border {
+    border: none;
 }
